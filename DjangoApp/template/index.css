@@ -1,0 +1,31 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+}
+
+#container{
+display:flex;
+justify-content: center;
+align-items: center;
+min-height:100vh;
+padding:20px;
+background:#eee;
+}
+
+#container2{
+position:absolute;
+min-width:280px;
+min-height:450px;
+border-radius:15px;
+padding:10px;
+display:flex;
+justify-content: center;
+align-items: center;
+box-shadow:15px 15px 30px rgba(0, 0, 0, 0.3);
+background: white;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Home</title>
+<!--
+<link rel="stylesheet" href="index.css" type="text/css">
+-->
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+body{
+
+}
+
+.section{
+width:100%;
+height:100vh;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+.nav{
+height:50px;
+width:100%;
+background:rgba(0, 0, 0, 0.8);
+box-shadow:15px 0px 30px rgba(0, 0, 0, 0.8);
+padding:0px 15px;
+}
+
+.nav .page{
+font-size:35px;
+line-height:50px;
+display:inline-block;
+color:white;
+}
+
+.section > .container{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,  -50%);
+font-family:Verdana,Arial,sans-serif;
+width:100%;
+font-size:30px;
+text-align:center;
+font-weight:bolder;
+text-transform:uppercase;
+}
+
+.section .container .title{
+
+}
+
+.section .container h2{
+color:red;
+}
+
+.section .startApp{
+position:absolute;
+left:0;
+right:0;
+margin:auto;
+background:red;
+display:inline-block;
+padding:8px;
+font-size:30px;
+text-decoration:none;
+color:#fff;
+width:110px;
+border-radius:25px;
+text-align:center;
+bottom:20%;
+border:2px solid red;
+transition:.5s;
+
+}
+
+.section .startApp:hover{
+content:'';
+background:#fff;
+color:#f00;
+}
+
+.section .footer{
+position:absolute;
+bottom:0;
+height:28px;
+width:100%;
+background:rgba(0, 0, 0, 0.8);
+text-align:center;
+color:#fff;
+}
+
+.section .footer p{
+line-height:30px;
+}
+</style>
+</head>
+<body>
+
+<section class="section" >
+	<nav class="nav">
+		<h1 class="page">Home</h1>
+	</nav>
+	
+	<div class="container">
+		<h1 class="title" >
+			A website <br> for
+		</h1>
+		<h2>Text utilities</h2>
+	</div>
+	
+	<a href="/utility" class="startApp">start</a>
+	
+	<footer class="footer">
+		<p>copyright © Made by Sandeep</p>
+	</footer>
+</section>
+
+</body>
+</html>

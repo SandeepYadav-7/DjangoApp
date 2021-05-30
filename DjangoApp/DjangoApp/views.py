@@ -1,10 +1,11 @@
 from django.http import HttpResponse
+from django.shortcuts import render
 
 def home(request):
-	return HttpResponse("<h1><center>Home Section</center></h1>")
+	return render(request, 'home.html')
 
 def about(request):
-	return HttpResponse("<h1><center>About Section</center></h1>")
+	return render(request, 'about.html')
 
-def form(request):
-	return HttpResponse("<h1><center>Form Section</center></h1>")
+def utility(request):
+	return render(request, 'utility.html')
